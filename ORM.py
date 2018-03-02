@@ -1,4 +1,5 @@
 #-*- coding: utf-8 -*-
+#编写ORM
 
 
 import asyncio, logging
@@ -228,4 +229,3 @@ class Model(dict, metaclass=ModelMetaclass):
 
 
 
-        
